@@ -10,7 +10,7 @@
       parent::__construct();
     }
     public $columns = [];
-    public $table = 'user';
+    public $table = 'users';
 
 
   }

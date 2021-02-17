@@ -9,7 +9,7 @@
 
     function __construct()
     {
-      parent::__construct();
+      parent:: __construct();
       $this->auth->scan();
     }
 
@@ -19,7 +19,7 @@
       $this->view->css = ['home/css/default.css'];
 
       //render page
-      $this->view->render('home/index');
+      $this->view->render('home/admin_home');
     }
 
 
