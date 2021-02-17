@@ -1,16 +1,15 @@
 <?php
   //pc
-  // define('URL', 'http://sabsung.test/');
-  define('URL', 'http://localhost/imhcs/');
+  define('URL', 'http://localhost/quiz/');
 
   //controller
   define('START_PAGE', 'home');
 
-  define('SYSTEM_NAME', 'Isidro Mendoza Health Center System');
+  define('SYSTEM_NAME', 'QUIZ');
 
   //db
   define('DB_TYPE', 'mysql');
   define('DB_HOST', 'localhost');
-  define('DB_NAME', 'imhcs');
+  define('DB_NAME', 'quiz');
   define('DB_USER', 'root');
   define('DB_PASS', '');
